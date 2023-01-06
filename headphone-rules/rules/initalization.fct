@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.rule:Function xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.rule="http://ilog.rules.studio/model/rule.ecore">
+  <name>initalization</name>
+  <uuid>952d1190-529c-47e8-b2ea-4f933250ad3b</uuid>
+  <definition><![CDATA[if(ProductAndBundles!=null){
+	
+	foreach(ProductBundle productBundle in ProductAndBundles.bundles){
+		insert productBundle;
+	}
+}
+	
+
+
+]]></definition>
+  <imports>use ProductAndBundles;</imports>
+  <imports>import com.headphone.ProductBundle;</imports>
+</ilog.rules.studio.model.rule:Function>
