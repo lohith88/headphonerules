@@ -1,0 +1,92 @@
+<b2x:translation xmlns:b2x="http://schemas.ilog.com/JRules/1.3/Translation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ilog.com/JRules/1.3/Translation ilog/rules/schemas/1_3/b2x.xsd">
+    <id>84c478cd-8854-48fe-8c45-96920f0a7b1c</id>
+    <lang>ARL</lang>
+    <class>
+        <businessName>com.domains.ProductCode</businessName>
+        <executionName>java.lang.String</executionName>
+        <attribute>
+            <name>WHIS1000</name>
+            <getter language="irl"><![CDATA[
+            return "WHIS1000";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS2000</name>
+            <getter language="irl"><![CDATA[
+            return "WHIS2000 ";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS3000</name>
+            <getter language="irl"><![CDATA[
+            return "WHIS3000 ";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS3001</name>
+            <getter language="irl"><![CDATA[
+            return "STOMP10 ";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS3002</name>
+            <getter language="irl"><![CDATA[
+            return "STOMP20";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS3003</name>
+            <getter language="irl"><![CDATA[
+            return "PAD001";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS3004</name>
+            <getter language="irl"><![CDATA[
+            return "PAD002";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS3005</name>
+            <getter language="irl"><![CDATA[
+            return "CABLE001";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS3006</name>
+            <getter language="irl"><![CDATA[
+            return "CABLE002";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS3007</name>
+            <getter language="irl"><![CDATA[
+            return "STAND001";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS3008</name>
+            <getter language="irl"><![CDATA[
+            return "STAND002";
+            ]]></getter>
+        </attribute>
+        <attribute>
+            <name>WHIS3009</name>
+            <getter language="irl"><![CDATA[
+            return "STAND003";
+            ]]></getter>
+        </attribute>
+    </class>
+    <class>
+        <businessName>com.headphone.Product</businessName>
+        <attribute>
+            <name>_code</name>
+            <getter language="arl"><![CDATA[
+            return this.code;
+            ]]></getter>
+            <setter language="arl"><![CDATA[
+            this.code=code;
+            ]]></setter>
+        </attribute>
+    </class>
+</b2x:translation>

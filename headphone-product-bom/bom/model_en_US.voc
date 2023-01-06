@@ -1,0 +1,64 @@
+# Vocabulary Properties
+uuid = 967225eb-d6c6-413b-ad4a-d2a8849ba459
+
+# com.domains.ProductCode
+com.domains.ProductCode#concept.label = product code
+com.domains.ProductCode.WHIS1000#instance.documentation = Series 1000 Whisper\nHeadphones
+com.domains.ProductCode.WHIS1000#instance.label = WHIS1000
+com.domains.ProductCode.WHIS2000#instance.documentation = Series 2000 Whisper Headphones
+com.domains.ProductCode.WHIS2000#instance.label = WHIS2000 
+com.domains.ProductCode.WHIS3000#instance.documentation = Series 3000 Whisper\nHeadphones
+com.domains.ProductCode.WHIS3000#instance.label = WHIS3000 
+com.domains.ProductCode.WHIS3001#instance.documentation = Series 10 Stomp\nHeadphones
+com.domains.ProductCode.WHIS3001#instance.label = STOMP10 
+com.domains.ProductCode.WHIS3002#instance.documentation = Series 20 Stomp\nHeadphones
+com.domains.ProductCode.WHIS3002#instance.label = STOMP20
+com.domains.ProductCode.WHIS3003#instance.documentation = Pair of pleather earpads
+com.domains.ProductCode.WHIS3003#instance.label = PAD001
+com.domains.ProductCode.WHIS3004#instance.documentation = Pair of velvet earpads
+com.domains.ProductCode.WHIS3004#instance.label = PAD002
+com.domains.ProductCode.WHIS3005#instance.documentation = Standard cable
+com.domains.ProductCode.WHIS3005#instance.label = CABLE001
+com.domains.ProductCode.WHIS3006#instance.documentation = Super clarity gold cables
+com.domains.ProductCode.WHIS3006#instance.label = CABLE002
+com.domains.ProductCode.WHIS3007#instance.documentation = Simple wooden stand for 1 headphone
+com.domains.ProductCode.WHIS3007#instance.label = STAND001
+com.domains.ProductCode.WHIS3008#instance.documentation = Metal stand for 1\nheadphone
+com.domains.ProductCode.WHIS3008#instance.label = STAND002
+com.domains.ProductCode.WHIS3009#instance.documentation = Stylish metal stand for\nup to 2 headphones
+com.domains.ProductCode.WHIS3009#instance.label = STAND003
+
+# com.headphone.Product
+com.headphone.Product#concept.label = product
+com.headphone.Product._code#phrase.action = set the code of {this} to {code}
+com.headphone.Product._code#phrase.clearer = clear the code of {this}
+com.headphone.Product._code#phrase.navigation = {code} of {this}
+com.headphone.Product.category#phrase.action = set the category of {this} to {category}
+com.headphone.Product.category#phrase.navigation = {category} of {this}
+com.headphone.Product.description#phrase.action = set the description of {this} to {description}
+com.headphone.Product.description#phrase.navigation = {description} of {this}
+com.headphone.Product.unitPrice#phrase.action = set the unit price of {this} to {unit price}
+com.headphone.Product.unitPrice#phrase.navigation = {unit price} of {this}
+
+# com.headphone.ProductAndBundles
+com.headphone.ProductAndBundles#concept.label = product and bundles
+com.headphone.ProductAndBundles.bundles#phrase.action = set the bundles of {this} to {bundle}
+com.headphone.ProductAndBundles.bundles#phrase.navigation = {bundle} of {this}
+com.headphone.ProductAndBundles.discount#phrase.action = set the discount of {this} to {discount}
+com.headphone.ProductAndBundles.discount#phrase.navigation = {discount} of {this}
+com.headphone.ProductAndBundles.individualProducts#phrase.action = set the individual products of {this} to {individual product}
+com.headphone.ProductAndBundles.individualProducts#phrase.navigation = {individual product} of {this}
+com.headphone.ProductAndBundles.totalPrice#phrase.action = set the total price of {this} to {total price}
+com.headphone.ProductAndBundles.totalPrice#phrase.navigation = {total price} of {this}
+
+# com.headphone.ProductBundle
+com.headphone.ProductBundle#concept.label = product bundle
+com.headphone.ProductBundle.addMessage(java.lang.String)#phrase.action = add {0} to the messages of {this}
+com.headphone.ProductBundle.compatableProduct#phrase.action = set the compatable product of {this} to {compatable product}
+com.headphone.ProductBundle.compatableProduct#phrase.navigation = {compatable product} of {this}
+com.headphone.ProductBundle.messages#phrase.action = set the messages of {this} to {message}
+com.headphone.ProductBundle.messages#phrase.navigation = {message} of {this}
+com.headphone.ProductBundle.product#phrase.action = set the product of {this} to {product}
+com.headphone.ProductBundle.product#phrase.navigation = {product} of {this}
+com.headphone.ProductBundle.valid#phrase.action = make it {valid} that {this} is valid
+com.headphone.ProductBundle.valid#phrase.navigation = {this} is valid
