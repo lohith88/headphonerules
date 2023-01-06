@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>discountvars</name>
+  <uuid>4fc97205-da48-4140-a0cf-5d372b367946</uuid>
+  <variables name="ProductAndBundles" type="com.headphone.ProductAndBundles" initialValue="" verbalization="the product and bundles"/>
+</ilog.rules.studio.model.base:VariableSet>

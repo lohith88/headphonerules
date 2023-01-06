@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>B calculate total price</name>
+  <uuid>f14fe1c1-76ed-494a-8681-5d16c7461580</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[definitions 
+	set product to a product in the individual products of 'the product and bundles' ; 
+
+then
+    set the total price of 'the product and bundles' to the total price of 'the product and bundles' + the unit price of product+ the unit price of product ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

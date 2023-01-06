@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.base:VariableSet xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
+  <name>validbundlevariables</name>
+  <uuid>919a2d67-35ad-4d43-80f1-78187c85f3c1</uuid>
+  <variables name="bundle" type="com.headphone.ProductBundle" initialValue="" verbalization="the bundle"/>
+</ilog.rules.studio.model.base:VariableSet>
