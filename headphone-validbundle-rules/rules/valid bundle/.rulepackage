@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ilog.rules.studio.model.base:RulePackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.base="http://ilog.rules.studio/model/base.ecore">
-  <name>valid bundle</name>
-  <uuid>e748ff34-5013-4649-805f-f1c7cdd669ed</uuid>
-</ilog.rules.studio.model.base:RulePackage>
